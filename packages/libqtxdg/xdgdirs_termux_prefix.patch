@@ -4,7 +4,7 @@
      QLatin1String("Videos")
  };
  
-+static const char* TERMUX_PREFIX = "/data/data/hilled.pwnterm/files/usr";
++static const char* TERMUX_PREFIX = "@TERMUX_PREFIX@";
 +
  // Helper functions prototypes
  void fixBashShortcuts(QString &s);
