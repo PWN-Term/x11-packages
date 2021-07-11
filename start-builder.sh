@@ -85,7 +85,7 @@ fi
 			$SUDO docker exec $DOCKER_TTY "$CONTAINER_NAME" sudo groupmod -g $(id -g) builder
 			echo "Installing additional packages..."
 			$SUDO docker exec $DOCKER_TTY "$CONTAINER_NAME" sudo apt-get update
-			$SUDO docker exec $DOCKER_TTY "$CONTAINER_NAME" sudo apt-get install libwayland-dev
+			$SUDO docker exec $DOCKER_TTY "$CONTAINER_NAME" sudo apt-get install libwayland-dev -y
 		fi
 	fi
 
