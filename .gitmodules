@@ -1,4 +1,4 @@
 [submodule "termux-packages"]
 	path = termux-packages
 	branch = master
-	url = https://github.com/PWN-Term//termux-packages
+	url = https://github.com/PWN-Term/termux-packages
