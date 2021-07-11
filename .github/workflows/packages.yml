@@ -30,7 +30,6 @@ jobs:
           liblldb-6.0 libllvm6.0:amd64 mono-runtime-common monodoc-manual ruby
         sudo apt autoremove -yq
         sudo rm -rf /usr/local
-        sudo apt-get install libwayland-dev
     - name: Build packages
       run: |
         BASE_COMMIT=$(jq --raw-output .pull_request.base.sha "$GITHUB_EVENT_PATH")
